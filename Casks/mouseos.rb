@@ -3,8 +3,7 @@ cask "mouseos" do
   version "2.16.0"
   sha256 "13ddfd35742c688789ddee66685f674b0b769ccec984516c01faaf385dc918d8"
 
-  url "https://github.com/MathisZerbib/mouseos/releases/download/v#{version}/MouseOS-#{version}.dmg",
-      verified: "github.com/MathisZerbib/mouseos/"
+  url "https://github.com/MathisZerbib/mouseos/releases/download/v#{version}/MouseOS-#{version}.dmg"
   name "MouseOS"
   desc "Use an Android phone as this Mac's trackpad, keyboard and remote"
   homepage "https://mouseos.app/"
